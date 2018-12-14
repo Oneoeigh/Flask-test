@@ -1,7 +1,14 @@
-{% extends "bootstrap/base.html" %}
-
-{% block title %}Demo Web{% endblock %}
-
-{% block content %}
-    {% block page_content %}{% endblock %}
-{% endblock %}
+<html>
+    <head>
+      {% if title %}
+      <title>{{ title }} - Demo</title>
+      {% else %}
+      <title>Welcome to Demo</title>
+      {% endif %}
+    </head>
+    <body>
+        <div>Demo: <a href="/index">Home</a></div>
+        <hr>
+        {% block page_content %}{% endblock %}
+    </body>
+</html>
