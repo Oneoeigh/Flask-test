@@ -9,12 +9,11 @@ The project is a simple online chat platform with a dice robot.
   - [x] logout
   - [x] register
 - [ ] Lobby:
-  - [ ] player list
   - [ ] room list
     - [ ] enter a room
+      - [ ] password?
   - [ ] create a room
     - [ ] create with or without password
-  - [ ] chat box
 - [ ] Room:
   - [ ] player list
   - [ ] chat box
